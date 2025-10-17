@@ -1,0 +1,31 @@
+[0;34m[INFO][0m Running Robust demo test...
+/Users/hyunjilee/Desktop/LAB Prof.Jinhui/MHIT36-main/살려줘/jax_fem_env/lib/python3.9/site-packages/jax/_src/lib/__init__.py:32: UserWarning: JAX on Mac ARM machines is experimental and minimally tested. Please see https://github.com/google/jax/issues/5501 in the event of problems.
+  warnings.warn("JAX on Mac ARM machines is experimental and minimally tested. "
+/Users/hyunjilee/Desktop/LAB Prof.Jinhui/MHIT36-main/살려줘/jax_fem_env/lib/python3.9/site-packages/jax/_src/lib/__init__.py:32: UserWarning: JAX on Mac ARM machines is experimental and minimally tested. Please see https://github.com/google/jax/issues/5501 in the event of problems.
+  warnings.warn("JAX on Mac ARM machines is experimental and minimally tested. "
+JAX-FEM Compatibility Test
+========================================
+Testing JAX Installation...
+==============================
+❌ JAX import failed: cannot import name 'pocketfft' from 'jaxlib' (/Users/hyunjilee/Desktop/LAB Prof.Jinhui/MHIT36-main/살려줘/jax_fem_env/lib/python3.9/site-packages/jaxlib/__init__.py)
+
+⚠️  JAX has issues, running CPU-only demo...
+Robust 3D FEM Demo
+==============================
+Mesh: 3×3×3 elements
+Nodes: 64
+DOFs: 192
+
+CPU Assembly...
+CPU time: 0.000076 seconds
+
+GPU Assembly...
+JAX not available: cannot import name 'pocketfft' from 'jaxlib' (/Users/hyunjilee/Desktop/LAB Prof.Jinhui/MHIT36-main/살려줘/jax_fem_env/lib/python3.9/site-packages/jaxlib/__init__.py)
+Running CPU-only version...
+
+CPU Solve...
+CPU solve time: 0.000434 seconds
+
+Max displacement: 0.001000
+[0;32m[SUCCESS][0m Robust demo test completed successfully
+

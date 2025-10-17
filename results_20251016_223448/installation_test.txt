@@ -1,0 +1,11 @@
+[0;34m[INFO][0m Running Installation verification...
+/Users/hyunjilee/Desktop/LAB Prof.Jinhui/MHIT36-main/살려줘/jax_fem_env/lib/python3.9/site-packages/jax/_src/lib/__init__.py:32: UserWarning: JAX on Mac ARM machines is experimental and minimally tested. Please see https://github.com/google/jax/issues/5501 in the event of problems.
+  warnings.warn("JAX on Mac ARM machines is experimental and minimally tested. "
+JAX-FEM Installation Test
+========================================
+Testing package imports...
+❌ JAX import failed: cannot import name 'pocketfft' from 'jaxlib' (/Users/hyunjilee/Desktop/LAB Prof.Jinhui/MHIT36-main/살려줘/jax_fem_env/lib/python3.9/site-packages/jaxlib/__init__.py)
+
+❌ Import test failed. Please install missing packages.
+[0;31m[ERROR][0m Installation verification failed
+

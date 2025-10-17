@@ -1,0 +1,14 @@
+/Users/hyunjilee/Desktop/LAB Prof.Jinhui/MHIT36-main/살려줘/jax_fem_env/lib/python3.9/site-packages/jax/_src/lib/__init__.py:32: UserWarning: JAX on Mac ARM machines is experimental and minimally tested. Please see https://github.com/google/jax/issues/5501 in the event of problems.
+  warnings.warn("JAX on Mac ARM machines is experimental and minimally tested. "
+Traceback (most recent call last):
+  File "/Users/hyunjilee/Desktop/LAB Prof.Jinhui/MHIT36-main/살려줘/simple_demo.py", line 7, in <module>
+    import jax
+  File "/Users/hyunjilee/Desktop/LAB Prof.Jinhui/MHIT36-main/살려줘/jax_fem_env/lib/python3.9/site-packages/jax/__init__.py", line 37, in <module>
+    from . import config as _config_module
+  File "/Users/hyunjilee/Desktop/LAB Prof.Jinhui/MHIT36-main/살려줘/jax_fem_env/lib/python3.9/site-packages/jax/config.py", line 18, in <module>
+    from jax._src.config import config
+  File "/Users/hyunjilee/Desktop/LAB Prof.Jinhui/MHIT36-main/살려줘/jax_fem_env/lib/python3.9/site-packages/jax/_src/config.py", line 27, in <module>
+    from jax._src import lib
+  File "/Users/hyunjilee/Desktop/LAB Prof.Jinhui/MHIT36-main/살려줘/jax_fem_env/lib/python3.9/site-packages/jax/_src/lib/__init__.py", line 76, in <module>
+    from jaxlib import pocketfft
+ImportError: cannot import name 'pocketfft' from 'jaxlib' (/Users/hyunjilee/Desktop/LAB Prof.Jinhui/MHIT36-main/살려줘/jax_fem_env/lib/python3.9/site-packages/jaxlib/__init__.py)

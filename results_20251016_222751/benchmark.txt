@@ -1,0 +1,8 @@
+[0;34m[INFO][0m Running Full benchmark...
+/Users/hyunjilee/Desktop/LAB Prof.Jinhui/MHIT36-main/살려줘/jax_fem_env/lib/python3.9/site-packages/jax/_src/lib/__init__.py:32: UserWarning: JAX on Mac ARM machines is experimental and minimally tested. Please see https://github.com/google/jax/issues/5501 in the event of problems.
+  warnings.warn("JAX on Mac ARM machines is experimental and minimally tested. "
+Import error: cannot import name 'pocketfft' from 'jaxlib' (/Users/hyunjilee/Desktop/LAB Prof.Jinhui/MHIT36-main/살려줘/jax_fem_env/lib/python3.9/site-packages/jaxlib/__init__.py)
+Please install the required packages:
+pip install -r requirements.txt
+[0;32m[SUCCESS][0m Full benchmark completed successfully
+

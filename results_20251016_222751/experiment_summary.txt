@@ -1,0 +1,24 @@
+3D FEM Solver Experiment Summary
+================================
+Experiment Date: Thu Oct 16 22:28:56 CDT 2025
+System: Darwin wirelessprv-10-194-247-74.near.illinois.edu 23.1.0 Darwin Kernel Version 23.1.0: Mon Oct  9 21:32:11 PDT 2023; root:xnu-10002.41.9~7/RELEASE_ARM64_T6030 arm64
+Python Version: Python 3.9.6
+Working Directory: /Users/hyunjilee/Desktop/LAB Prof.Jinhui/MHIT36-main/살려줘
+
+Files Executed:
+1. test_installation.py - Installation verification
+2. check_cuda_version.py - CUDA version check
+3. working_demo.py - Working demo test
+4. robust_demo.py - Robust demo test
+5. simple_demo.py - Simple demo test
+6. run_benchmark.py - Full benchmark
+7. jax_fem_3d_solver.py - Main 3D FEM solver
+
+Results Directory: results_20251016_222751
+All outputs saved to individual files in this directory.
+
+Next Steps:
+- Check individual output files for detailed results
+- Look for performance_comparison.png for visualization
+- Review any error messages in the output files
+- For GPU acceleration, follow CUDA_INSTALLATION_GUIDE.md

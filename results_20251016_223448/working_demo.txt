@@ -1,0 +1,47 @@
+[0;34m[INFO][0m Running Working demo test...
+/Users/hyunjilee/Desktop/LAB Prof.Jinhui/MHIT36-main/살려줘/jax_fem_env/lib/python3.9/site-packages/jax/_src/lib/__init__.py:32: UserWarning: JAX on Mac ARM machines is experimental and minimally tested. Please see https://github.com/google/jax/issues/5501 in the event of problems.
+  warnings.warn("JAX on Mac ARM machines is experimental and minimally tested. "
+/Users/hyunjilee/Desktop/LAB Prof.Jinhui/MHIT36-main/살려줘/jax_fem_env/lib/python3.9/site-packages/jax/_src/lib/__init__.py:32: UserWarning: JAX on Mac ARM machines is experimental and minimally tested. Please see https://github.com/google/jax/issues/5501 in the event of problems.
+  warnings.warn("JAX on Mac ARM machines is experimental and minimally tested. "
+3D FEM Demo - CPU vs GPU Performance
+==================================================
+Checking CUDA and GPU information...
+  JAX not available
+
+⚠️  No GPU detected
+   Running CPU-only demo...
+   For GPU acceleration, see CUDA_INSTALLATION_GUIDE.md
+Working 3D FEM Demo
+==============================
+Mesh: 3×3×3 elements
+Nodes: 64
+DOFs: 192
+
+CPU Assembly...
+CPU time: 0.000203 seconds
+
+GPU Assembly...
+JAX not available: cannot import name 'pocketfft' from 'jaxlib' (/Users/hyunjilee/Desktop/LAB Prof.Jinhui/MHIT36-main/살려줘/jax_fem_env/lib/python3.9/site-packages/jaxlib/__init__.py)
+Running CPU-only version...
+
+⚠️  GPU acceleration not available, running CPU-only demo...
+
+CPU-Only Demo
+====================
+Mesh: 3×3×3 elements
+Nodes: 64
+DOFs: 192
+
+Assembly...
+Assembly time: 0.000010 seconds
+
+Solve...
+Solve time: 0.000935 seconds
+
+Total time: 0.000945 seconds
+Max displacement: 0.001000
+
+==================================================
+Demo completed!
+[0;32m[SUCCESS][0m Working demo test completed successfully
+
